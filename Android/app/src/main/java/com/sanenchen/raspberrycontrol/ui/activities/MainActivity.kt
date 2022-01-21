@@ -66,7 +66,6 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
     // 树莓派的基本信息
     @Composable
     fun RaspiBasicInfo() {
