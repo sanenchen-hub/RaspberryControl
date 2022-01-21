@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RaspberryControl</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_clash_update">ClashUpdateActivity</string>
+</resources>

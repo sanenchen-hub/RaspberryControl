@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sanenchen.raspberrycontrol">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RaspberryControl"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.activities.ClashUpdateActivity"
+            android:exported="true"
+            android:label="@string/title_activity_clash_update"
+            android:theme="@style/Theme.RaspberryControl.NoActionBar" />
+        <activity
+            android:name=".ui.activities.SettingActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RaspberryControl.NoActionBar" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RaspberryControl.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
